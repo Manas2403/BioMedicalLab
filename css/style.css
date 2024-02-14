@@ -279,7 +279,7 @@ header .intro-text {
 
 /* Features Section */
 #features {
-    padding: 100px 0;
+    padding: 0;
     background: #fff;
 }
 
@@ -298,7 +298,7 @@ header .intro-text {
 
 /* About Section */
 #about {
-    padding: 100px 0;
+    padding: 0;
 }
 
 #about h3 {
@@ -312,7 +312,7 @@ header .intro-text {
     padding-bottom: 15px;
 }
 
-#about h2::after {
+/* #about h2::after {
     position: absolute;
     content: "";
     background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
@@ -320,7 +320,7 @@ header .intro-text {
     width: 60px;
     bottom: 0;
     left: 0;
-}
+} */
 
 #about .about-text li {
     margin-bottom: 6px;
@@ -404,7 +404,7 @@ header .intro-text {
 
 /* Portfolio Section */
 #portfolio {
-    padding: 100px 0;
+    padding: 0;
 }
 
 .portfolio-item {
@@ -513,7 +513,7 @@ header .intro-text {
 
 /* Team Section */
 #team {
-    padding: 100px 0;
+    padding: 0;
 }
 
 #team h4 {
@@ -537,7 +537,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
     padding: 100px 0 60px 0;
-    color: rgba(255, 255, 255, 0.75);
+    color: #777;
 }
 
 #contact .section-title {
@@ -549,7 +549,7 @@ header .intro-text {
 }
 
 #contact h2 {
-    color: #fff;
+    color: #777;
     margin-top: 10px;
     margin-bottom: 15px;
     padding-bottom: 15px;
@@ -646,7 +646,7 @@ label {
 }
 
 #contact .contact-item span {
-    color: rgba(255, 255, 255, 1);
+    color:#777;
     margin-bottom: 10px;
     display: block;
 }
@@ -672,8 +672,8 @@ label {
     width: 48px;
     height: 48px;
     padding: 12px 0;
-    border: 2px solid #fff;
-    color: #fff;
+    border: 2px solid #777;
+    color: #777;
     border-radius: 50%;
     transition: all 0.3s;
 }
@@ -877,7 +877,7 @@ body,
     }
 
     .intro p {
-        color: #fff;
+        color: #777;
         font-size: 15px;
         font-weight: 300;
         line-height: 30px;
@@ -957,3 +957,16 @@ body,
     justify-content: space-between;
     flex: 1;
 }
+.title-banner h2 {
+    padding-top: 3.5em;
+    padding-bottom: 2em;
+    margin-bottom: 1em;
+    color: #f3e0e0;
+    background: #900;
+    text-align: left;
+    text-justify: auto;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 6rem;
+}
+

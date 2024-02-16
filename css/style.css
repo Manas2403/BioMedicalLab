@@ -970,3 +970,9 @@ body,
     padding-left: 6rem;
 }
 
+.about-me {
+    text-align: left; 
+    padding: 2rem; 
+    padding-top: 0;
+    padding-left: 6rem;
+}

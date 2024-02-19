@@ -915,12 +915,21 @@ body,
     font-family: arial;
     border-radius: 2rem;
 }
-
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* gap: 5rem; */
+    align-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
 .course-card {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    margin: 10px;
 }
 
 .price {

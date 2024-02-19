@@ -646,7 +646,7 @@ label {
 }
 
 #contact .contact-item span {
-    color:#777;
+    color: #777;
     margin-bottom: 10px;
     display: block;
 }
@@ -913,6 +913,7 @@ body,
     margin: auto;
     text-align: center;
     font-family: arial;
+    border-radius: 2rem;
 }
 
 .course-card {
@@ -971,8 +972,8 @@ body,
 }
 
 .about-me {
-    text-align: left; 
-    padding: 2rem; 
+    text-align: left;
+    padding: 2rem;
     padding-top: 0;
     padding-left: 6rem;
 }

@@ -1116,3 +1116,27 @@ body,
 .port-flex {
     display: flex;
 }
+
+@media (max-width: 1200px) {
+    h2 {
+        font-size: 2rem;
+    }
+    .text-container {
+        max-width: 70%;
+    }
+    .text-container p {
+        font-size: 1.8rem;
+        text-align: start;
+    }
+    .home_hero_image img {
+        max-width: 50%;
+        height: auto;
+        margin: 1rem;
+        border-radius: 1rem;
+    }
+    .container-about {
+        justify-content: center;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}

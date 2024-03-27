@@ -1,185 +1,294 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Biomedical Imaging Laboratory, IIIT Allahabad</title>
-    <meta name="description" content="Biomedical Imaging Laboratory | IIIT Allahabad">
-    <meta name="keywords"
-        content="Biomedical Imaging Lab, Learning, Lab,Bio,Ratan K Saha,Ratan Saha, IIIT, Allahabad, Indian Institute of Information Technology, IIIT Allahabad">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstap.min.css" rel="stylesheet"
-        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <!-- Favicons
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Biomedical Imaging Laboratory, IIIT Allahabad</title>
+        <meta
+            name="description"
+            content="Biomedical Imaging Laboratory | IIIT Allahabad"
+        />
+        <meta
+            name="keywords"
+            content="Biomedical Imaging Lab, Learning, Lab,Bio,Ratan K Saha,Ratan Saha, IIIT, Allahabad, Indian Institute of Information Technology, IIIT Allahabad"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstap.min.css"
+            rel="stylesheet"
+            integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+            crossorigin="anonymous"
+        />
+        <!-- Favicons
     ================================================== -->
-    <link rel="shortcut icon" href="img/logo/iiita.png" type="image/x-icon">
-    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+        <link
+            rel="shortcut icon"
+            href="img/logo/iiita.png"
+            type="image/x-icon"
+        />
+        <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+        <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="img/apple-touch-icon-72x72.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="img/apple-touch-icon-114x114.png"
+        />
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <!-- Bootstrap -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
-    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="fonts/font-awesome/css/font-awesome.css"
+        />
 
-    <!-- Owl Carousel -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+        <!-- Owl Carousel -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        />
 
-    <!-- Custom Style Sheet -->
-    <link rel="stylesheet" href="stylecarosal.css">
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-    <!-- Stylesheet
+        <!-- Custom Style Sheet -->
+        <link rel="stylesheet" href="stylecarosal.css" />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"
+        />
+        <!-- Stylesheet
     ================================================== -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
-    <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="css/nivo-lightbox/nivo-lightbox.css"
+        />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="css/nivo-lightbox/default.css"
+        />
+        <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css?family=Lato:400,700"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900"
+            rel="stylesheet"
+        />
+    </head>
 
-</head>
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+        <!--______________________________________________________________________________________________________________________________________-->
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
-
-
-    <!--______________________________________________________________________________________________________________________________________-->
-
-
-
-    <!-- Navigation-->
-    <nav id="menu" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed " data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span> </button>
-                <a class="navbar-brand page-scroll" href="/"><img src="img/logo/iiita.png"
-                        style="height:56px;margin-top: -21px;" /></a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html" class="page-scroll">Home</a></li>
-                    <li><a href="aboutus.html" class="page-scroll">About</a></li>
-                    <li><a href="events.html" class="page-scroll">Events</a></li>
-                    <li><a href="publication.html" class="page-scroll">Publications</a></li>
-                    <!-- <li><a href="project.html" class="page-scroll">Projects</a></li> -->
-                    <li><a href="courses.html" class="page-scroll">Courses</a></li>
-                    <li><a href="gallery.html" class="page-scroll">Gallery</a></li>
-                    <!--<li><a href="#testimonials" class="page-scroll">Testimonials</a></li>-->
-                    <li><a href="team.html" class="page-scroll">Team</a></li>
-                    <li><a href="contact.html" class="page-scroll">Contact</a></li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-    </nav>
-
-
-
-    <!--______________________________________________________________________________________________________________________________________-->
-
-
-
-
-
-
-
-
-
-
-
-
-    <!--______________________________________________________________________________________________________________________________________-->
-
-    <!-- <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/7862811.js"></script> -->
-
-    <!-- Start-Ups Section -->
-
-
-
-
-    <!--______________________________________________________________________________________________________________________________________-->
-
-
-
-    <!-- About Section -->
-    <div class="section-title title-banner">
-        <h2>About Us</h2>
-    </div>
-    <div id="about">
-        <div class="container" >
-            <div class="row">
-                <div class="col-xs-12 col-md-6"> <img src="img/about.jpg" class="img-responsive" alt=""
-                        style="margin-top: 40px;">
-
+        <!-- Navigation-->
+        <nav id="menu" class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button
+                        type="button"
+                        class="navbar-toggle collapsed"
+                        data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1"
+                    >
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="/"
+                        ><img
+                            src="img/logo/iiita.png"
+                            style="height: 56px; margin-top: -21px"
+                    /></a>
                 </div>
-                <div class="col-xs-12 col-md-6">
-                    <div class="about-text">
-                        <!-- <h2>About Us</h2> -->
-                        <p>Our lab is dedicated to exploring the exciting field of Deep Learning, which is a subfield of
-                            Artificial Intelligence (AI) that focuses on creating algorithms and models inspired by the
-                            structure and function of the human brain.
-                            At our lab, we use state-of-the-art technologies, tools, and techniques to develop and train
-                            complex deep neural networks. Our research interests span a wide range of applications,
-                            including image and speech recognition, natural language processing, robotics, and more.
-                            <br>
-                            <br>
-                            We believe that Deep Learning has the potential to revolutionize many areas of society, from
-                            healthcare to finance to transportation, and we are committed to contributing to this
-                            exciting field through our research, teaching, and collaboration with other researchers and
-                            practitioners.
-                            Our lab is home to a diverse and talented team of researchers, graduate students, and
-                            undergraduates, who work together to advance the state-of-the-art in Deep Learning. We also
-                            offer opportunities for undergraduate and graduate students to participate in our research
-                            projects and gain hands-on experience with cutting-edge technologies.
-                            ​
-                        </p>
-                        <h3>Funded Projects</h3>
-                        <ol style="list-style-type: upper-roman;">
-                            <li>
-                                CSIR (No. IA-27429). Senior Research Associate, PI, Rs. 20, 40, 000/- (approx.)<br>October 2013-
-October 2016.
-                            </li>
-                            <li>
-                                ICMR (No. 56/2/2020-Hae/BMS), R&D project, PI, Rs. 21, 00, 000/- (approx.),<br>January 2021-January
-2024.
-                            </li>
-                            <li>
-                                DBT (BT/PR44547/MED/32/791/2021), R&D project, PI, Rs. 18, 48, 040/- (approx.),<br>March 2023-
-March 2025.
-                            </li>
-                            <li>
-                                SERB, DST (CRG/2023/003278), R&D project, PI, Rs. 25, 00, 000/- (approx.),<br>March 2024-March
-2027.
-                            </li>
-                        </ol>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div
+                    class="collapse navbar-collapse"
+                    id="bs-example-navbar-collapse-1"
+                >
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="index.html" class="page-scroll">Home</a>
+                        </li>
+                        <li>
+                            <a href="aboutus.html" class="page-scroll">About</a>
+                        </li>
+                        <li>
+                            <a href="events.html" class="page-scroll">Events</a>
+                        </li>
+                        <li>
+                            <a href="publication.html" class="page-scroll"
+                                >Publications</a
+                            >
+                        </li>
+                        <!-- <li><a href="project.html" class="page-scroll">Projects</a></li> -->
+                        <li>
+                            <a href="courses.html" class="page-scroll"
+                                >Courses</a
+                            >
+                        </li>
+                        <li>
+                            <a href="gallery.html" class="page-scroll"
+                                >Gallery</a
+                            >
+                        </li>
+                        <!--<li><a href="#testimonials" class="page-scroll">Testimonials</a></li>-->
+                        <li>
+                            <a href="team.html" class="page-scroll">Team</a>
+                        </li>
+                        <li>
+                            <a href="contact.html" class="page-scroll"
+                                >Contact</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+        </nav>
+
+        <!--______________________________________________________________________________________________________________________________________-->
+
+        <!--______________________________________________________________________________________________________________________________________-->
+
+        <!-- <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/7862811.js"></script> -->
+
+        <!-- Start-Ups Section -->
+
+        <!--______________________________________________________________________________________________________________________________________-->
+
+        <!-- About Section -->
+        <div class="section-title title-banner">
+            <h2>About Us</h2>
+        </div>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6" style="margin-top: 2.5rem">
+                        <img
+                            src="img/about.jpg"
+                            class="img-responsive"
+                            alt=""
+                        />
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <div class="about-text">
+                            <!-- <h2>About Us</h2> -->
+                            <p>
+                                Our lab is dedicated to exploring the exciting
+                                field of Deep Learning, which is a subfield of
+                                Artificial Intelligence (AI) that focuses on
+                                creating algorithms and models inspired by the
+                                structure and function of the human brain. At
+                                our lab, we use state-of-the-art technologies,
+                                tools, and techniques to develop and train
+                                complex deep neural networks. Our research
+                                interests span a wide range of applications,
+                                including image and speech recognition, natural
+                                language processing, robotics, and more.
+                                <br />
+                                <br />
+                                We believe that Deep Learning has the potential
+                                to revolutionize many areas of society, from
+                                healthcare to finance to transportation, and we
+                                are committed to contributing to this exciting
+                                field through our research, teaching, and
+                                collaboration with other researchers and
+                                practitioners. Our lab is home to a diverse and
+                                talented team of researchers, graduate students,
+                                and undergraduates, who work together to advance
+                                the state-of-the-art in Deep Learning. We also
+                                offer opportunities for undergraduate and
+                                graduate students to participate in our research
+                                projects and gain hands-on experience with
+                                cutting-edge technologies. ​
+                            </p>
+                            <h3>Funded Projects</h3>
+                            <ol style="list-style-type: upper-roman">
+                                <li>
+                                    CSIR (No. IA-27429). Senior Research
+                                    Associate, PI, Rs. 20, 40, 000/-
+                                    (approx.)<br />October 2013- October 2016.
+                                </li>
+                                <li>
+                                    ICMR (No. 56/2/2020-Hae/BMS), R&D project,
+                                    PI, Rs. 21, 00, 000/- (approx.),<br />January
+                                    2021-January 2024.
+                                </li>
+                                <li>
+                                    DBT (BT/PR44547/MED/32/791/2021), R&D
+                                    project, PI, Rs. 18, 48, 040/- (approx.),<br />March
+                                    2023- March 2025.
+                                </li>
+                                <li>
+                                    SERB, DST (CRG/2023/003278), R&D project,
+                                    PI, Rs. 25, 00, 000/- (approx.),<br />March
+                                    2024-March 2027.
+                                </li>
+                            </ol>
+                            <h3 style="margin-top: 4rem">Equipments</h3>
+                            <div
+                                style="
+                                    margin-bottom: 6px;
+                                    margin-left: 0.75 rem;
+                                "
+                            >
+                                We're equipped with advanced tools for
+                                cutting-edge biomedical research:
+                            </div>
+                            <ol style="list-style-type: upper-roman">
+                                <li>
+                                    Nd-YAG Laser: Versatile for tissue ablation,
+                                    spectroscopy, and surgery.
+                                </li>
+                                <li>
+                                    Ultrasonic Transducer: Enables non-invasive
+                                    imaging of internal structures.
+                                </li>
+                                <li>
+                                    Tomographic Setup: Provides detailed 3D
+                                    views of biological tissues.
+                                </li>
+                                <li>
+                                    Hematocrit Centrifuge: Essential for
+                                    accurate blood cell volume measurements.
+                                </li>
+                                <li>
+                                    Weighing Balance: Precise measurement of
+                                    reagents and samples.
+                                </li>
+                                <li>
+                                    High-Performance Simulation Computer: Powers
+                                    complex computational analyses for research.
+                                </li>
+                            </ol>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    </div>
 
-    <!--______________________________________________________________________________________________________________________________________-->
+        <!--______________________________________________________________________________________________________________________________________-->
 
-    </div>
+        <!--______________________________________________________________________________________________________________________________________-->
 
-
-
-    <!--______________________________________________________________________________________________________________________________________-->
-
-
-
-    <!-- Contact Section -->
-    <!-- <div id="contact">
+        <!-- Contact Section -->
+        <!-- <div id="contact">
         <div class="container">
             <div class="col-md-8">
                 <div class="row">
@@ -235,35 +344,57 @@ March 2025.
         </div>
     </div> -->
 
+        <!--______________________________________________________________________________________________________________________________________-->
 
+        <!-- Footer Section -->
+        <div id="footer">
+            <div class="container text-center">
+                <p>
+                    &#169; Biomedical Imaging Laboratory,
+                    <a
+                        href="https://iiita.ac.in"
+                        style="color: #888"
+                        target="_blank"
+                        >Indian Institute of Information Technology Allahabad
+                        <script
+                            type="text/javascript"
+                            src="js/jquery.1.11.1.js"
+                        ></script>
+                        <script>
+                            $("#carouselFade").carousel();
+                        </script>
+                        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+                        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+                        <!-- Include all compiled plugins (below), or include individual files as needed -->
+                        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 
-    <!--______________________________________________________________________________________________________________________________________-->
-
-
-
-    <!-- Footer Section -->
-    <div id="footer">
-        <div class="container text-center">
-            <p>&#169; Biomedical Imaging Laboratory, <a href="https://iiita.ac.in" style="color:#888" target="_blank">Indian
-                    Institute of Information Technology Allahabad</p>
+                        <script
+                            type="text/javascript"
+                            src="js/bootstrap.js"
+                        ></script>
+                        <script
+                            type="text/javascript"
+                            src="js/SmoothScroll.js"
+                        ></script>
+                        <script
+                            type="text/javascript"
+                            src="js/nivo-lightbox.js"
+                        ></script>
+                        <script
+                            type="text/javascript"
+                            src="js/jqBootstrapValidation.js"
+                        ></script>
+                        <script
+                            type="text/javascript"
+                            src="js/contact_me.js"
+                        ></script>
+                        <script
+                            type="text/javascript"
+                            src="js/main.js"
+                        ></script>
+                    </a>
+                </p>
+            </div>
         </div>
-    </div>
-    <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
-    <script>
-        $('#carouselFade').carousel();
-    </script>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-
-
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-    <script type="text/javascript" src="js/SmoothScroll.js"></script>
-    <script type="text/javascript" src="js/nivo-lightbox.js"></script>
-    <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
-    <script type="text/javascript" src="js/contact_me.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-</body>
-
+    </body>
 </html>
